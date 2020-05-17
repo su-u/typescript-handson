@@ -1,9 +1,9 @@
-import { SumOnJetBrasHandsOn, DrawerOnJetBrainsHandsOn } from './sample.functions';
+import { sumOnJetBrasHandsOn, DrawerOnJetBrainsHandsOn } from './sample.functions';
 
 const firstNumber: number = 4;
 const secondNumber: number= 7;
 
-const result: number = SumOnJetBrasHandsOn(firstNumber, secondNumber);
+const result: number = sumOnJetBrasHandsOn(firstNumber, secondNumber);
 console.log(result);
 
 const array: ReadonlyArray<number> = [1, 2, 3];
