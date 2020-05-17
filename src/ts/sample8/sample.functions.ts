@@ -3,10 +3,10 @@ interface Drawer {
 }
 
 export class DrawerOnJetBrainsHandsOn implements Drawer {
-    #id_counter: number;
+    #idCounter: number;
 
     constructor() {
-        this.#id_counter = 0;
+        this.#idCounter = 0;
     }
 
     /*
@@ -15,14 +15,14 @@ export class DrawerOnJetBrainsHandsOn implements Drawer {
     */
     Draw(text: string): void {
         const element: HTMLDivElement = document.createElement('div');
-        element.setAttribute('id', this.#id_counter.toString());
-        this.#id_counter++;
+        element.setAttribute('id', this.#idCounter.toString());
+        this.#idCounter++;
         element.innerText = text.toString();
         document.body.appendChild(element);
     }
 }
 
 
-export function SumOnJetBrasHandsOn(a: number, b: number): number {
+export function sumOnJetBrasHandsOn(a: number, b: number): number {
     return a + b;
 }
