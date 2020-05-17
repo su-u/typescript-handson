@@ -5,7 +5,6 @@
     };
     console.log(student.name);
     // studentにはnumberのプロパティが存在していないが実行できる
+    // console.log(student.number);
 
-    console.log(student.number);
-    console.log(student.number);
 }
