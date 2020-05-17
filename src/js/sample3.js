@@ -1,4 +1,8 @@
 {
-    const text = 'hello world';
-    console.log(text);
+    const student = {
+        id: 1732000,
+        name: 'typescript',
+    };
+    console.log(student.name);
+    console.log(student.number);
 }
