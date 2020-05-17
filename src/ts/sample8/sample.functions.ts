@@ -15,9 +15,9 @@ export class DrawerOnJetBrainsHandsOn implements Drawer {
     */
     Draw(text: string): void {
         const element: HTMLDivElement = document.createElement('div');
-        element.setAttribute('id',this.#id_counter.toString());
+        element.setAttribute('id', this.#id_counter.toString());
         this.#id_counter++;
-        element.innerText=text.toString();
+        element.innerText = text.toString();
         document.body.appendChild(element);
     }
 }
