@@ -7,5 +7,5 @@
     // studentにはnumberのプロパティが存在していないが実行できる
 
     console.log(student.number);
-    console.log(student.number + 1);
+    console.log(student.number);
 }
