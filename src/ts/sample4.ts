@@ -4,5 +4,6 @@
         name: 'typescript',
     };
     console.log(student.name);
+    // studentにはnumberのプロパティがないのでエラーがでる
     console.log(student.number);
 }
