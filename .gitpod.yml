@@ -1,3 +1,5 @@
-image:
-  file: ./Dockerfile
+image: su1101/uubuntu-nvm:18
 
+tasks:
+  - init: nvm install 10.15.3
+    command: nvm use 10.15.3
