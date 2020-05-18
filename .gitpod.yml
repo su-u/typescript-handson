@@ -2,4 +2,5 @@ image:
   file: ./Dockerfile
 
 tasks:
-  - command: node -v;npm -v;npm -v
+  - command: node -v
+  - command: npm -v
