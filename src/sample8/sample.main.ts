@@ -1,7 +1,7 @@
 import { sumOnJetBrasHandsOn, DrawerOnJetBrainsHandsOn } from './sample.functions';
 
 const firstNumber: number = 4;
-const secondNumber: number= 7;
+const secondNumber: number = 7;
 
 const result: number = sumOnJetBrasHandsOn(firstNumber, secondNumber);
 console.log(result);
