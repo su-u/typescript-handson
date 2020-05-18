@@ -9,15 +9,11 @@ export class DrawerOnJetBrainsHandsOn implements Drawer {
         this.#idCounter = 0;
     }
 
-    /*
-    * HTMLに文字を描画します。
-    * @param {text}[文字列に変換可能オブジェクト]
-    */
     Draw(text: string): void {
         const element: HTMLDivElement = document.createElement('div');
         element.setAttribute('id', this.#idCounter.toString());
         this.#idCounter++;
-        element.innerText = text.toString();
+        element.innerText = text;
         document.body.appendChild(element);
         // console.log(this.#idCounter);
         // console.log(text);
