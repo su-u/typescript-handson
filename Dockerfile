@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM alpine:latest
 
 RUN \
     apk update && \
