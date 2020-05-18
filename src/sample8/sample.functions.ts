@@ -19,6 +19,8 @@ export class DrawerOnJetBrainsHandsOn implements Drawer {
         this.#idCounter++;
         element.innerText = text.toString();
         document.body.appendChild(element);
+        // console.log(this.#idCounter);
+        // console.log(text);
     }
 }
 
