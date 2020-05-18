@@ -4,4 +4,4 @@ function sum(num1: number, num2: number) {
 
 console.log(sum(1, 2));
 // 引数の型が違うのでエラーになる
-// console.log(Sum('1', 2));
+// console.log(sum('1', 2));
