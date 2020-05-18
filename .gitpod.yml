@@ -2,5 +2,5 @@ image:
   file: ./Dockerfile
 
 tasks:
-  - command: node -v
-  - command: npm -v
+  - command: echo Terminal1
+  - command: echo Terminal2
