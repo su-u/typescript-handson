@@ -1,4 +1,4 @@
-image: su1101/uubuntu-nvm:18
+image: su1101/ubuntu-nvm:18
 
 tasks:
   - init: nvm install 10.15.3
