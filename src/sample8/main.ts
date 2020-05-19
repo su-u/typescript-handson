@@ -14,7 +14,7 @@ for (let number of array) {
 let refactor_array=[];
 let base_array=[1,3,5,9];
 for (let number of base_array) {
-    refactor_array.push(number); //refactorするとnumber |> refactor_array.push(パイプライン記法)に書き換えてくれる
+    refactor_array.push(number);
 }
 
 let drawar=new DrawerOnJetBrainsHandsOn();
