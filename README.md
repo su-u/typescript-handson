@@ -1,5 +1,12 @@
 # typescript-handson
 
+## 事前準備
+nodejs v12.16.3前提
+```
+npm init -y
+npm install -D typescript@3.9.2
+```
+
 ## jsの実行
 ```
 node ./src/sample1.js
