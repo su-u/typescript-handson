@@ -1,7 +1,7 @@
 # typescript-handson
 
 ## GitPod
-URLの先頭に入力する
+先頭に入力するURL
 ```
 https://gitpod.io/#
 ```
