@@ -1,5 +1,11 @@
 # typescript-handson
 
+## GitPod
+URLの先頭に入力する
+```
+https://gitpod.io/#
+```
+
 ## 事前準備
 nodejs v12.16.3前提
 ```
