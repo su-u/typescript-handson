@@ -12,6 +12,7 @@ const outputStudent = (student: Student) => {
     console.log(student.name);
     // studentにはnumberのプロパティがないのでエラーがでる
     // console.log(student.number);
+
 };
 
 outputStudent(student);
