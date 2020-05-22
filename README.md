@@ -6,7 +6,7 @@
 https://gitpod.io/#
 ```
 
-## 事前準備
+## インストール
 nodejs v12.16.3前提
 ```
 npm init -y
