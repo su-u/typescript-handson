@@ -11,6 +11,7 @@ nodejs v12.16.3前提
 ```
 npm init -y
 npm install -D typescript@3.9.2
+./node_modules/.bin/tsc --init
 ```
 
 ## jsの実行
