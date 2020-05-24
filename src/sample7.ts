@@ -3,5 +3,5 @@ const sum = (num1: number, num2: number) => {
 };
 
 console.log(sum(1, 2));
-// 引数の型が違うのでエラーになる
+// numの引数の型が違うのでエラーになる
 // console.log(sum('1', 2));
