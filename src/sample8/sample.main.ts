@@ -18,4 +18,4 @@ baseArray.forEach((value: number) => {
 });
 
 const drawer: DrawerOnJetBrainsHandsOn = new DrawerOnJetBrainsHandsOn();
-drawer.Draw("Welcome to IntelliJ IDEA's swamp......");
+drawer.draw("Welcome to IntelliJ IDEA's swamp......");
