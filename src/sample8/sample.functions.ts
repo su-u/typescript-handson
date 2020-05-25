@@ -1,5 +1,5 @@
 interface Drawer {
-    Draw: (text: string) => void;
+    draw: (text: string) => void;
 }
 
 export class DrawerOnJetBrainsHandsOn implements Drawer {
@@ -9,7 +9,8 @@ export class DrawerOnJetBrainsHandsOn implements Drawer {
         this.#idCounter = 0;
     }
 
-    Draw(text: string): void {
+    //
+    draw(text: string): void {
         const element: HTMLDivElement = document.createElement('div');
         element.setAttribute('id', this.#idCounter.toString());
         this.#idCounter++;
