@@ -10,6 +10,10 @@ const array: ReadonlyArray<number> = [1, 2, 3];
 array.forEach((value: number) => {
     console.log(value);
 });
+// 上と処理は同じ
+for (const num of array ) {
+    console.log(num);
+}
 
 const refactorArray: Array<number> = [];
 const baseArray: ReadonlyArray<number> = [1, 3, 5, 9];
