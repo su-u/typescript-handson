@@ -22,6 +22,6 @@ export class DrawerOnJetBrainsHandsOn implements Drawer {
 }
 
 
-export function sumOnJetBrasHandsOn(a: number, b: number): number {
+export function sumOnJetBrainsHandsOn(a: number, b: number): number {
     return a + b;
 }
